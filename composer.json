@@ -1,0 +1,35 @@
+{
+  "name": "gafderks/omnipay-mpu",
+  "type": "library",
+  "description": "MPU driver for the Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "mpu"
+  ],
+  "homepage": "https://github.com/gafderks/omnipay-mpu",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Geert Derks",
+      "email": "geertderks12@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Omnipay\\MPU\\" : "src/" }
+  },
+  "require": {
+    "omnipay/common": "~2.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
+  }
+}
